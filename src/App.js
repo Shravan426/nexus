@@ -20,7 +20,7 @@ function App() {
       <MantineProvider>
        
        <Header/>
-       <Container fluid mx={40}>
+       <Container fluid mx={{lg:40,md:40,sm:20,xs:10}}>
         <Firstpage/>
        <Secondpage/>
        <Thirdpage/>

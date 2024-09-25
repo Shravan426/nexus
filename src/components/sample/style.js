@@ -78,6 +78,12 @@ flightGrid: {
 
   tablehead:{
     backgroundColor:'#E6E6E6'
+  },
+
+  footerRight:{
+    [theme.fn.smallerThan('sm')]: {
+         display:'none'
+      },
   }
 }));
 export default useStyles;

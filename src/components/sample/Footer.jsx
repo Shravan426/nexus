@@ -7,12 +7,9 @@ function Footer() {
     return (
         <>
         <Box mt={30}>
-        <footer>
-        <MediaQuery smallerThan="md" styles={{ flexDirection: 'column',alignItems:'center'}}>
-            <Flex justify="space-between"  pb={15} px={87}>
+              <Flex justify="space-between"  pb={15}  direction='row'>
                 <Text c={'#959698'} fz={'15px'} pl={25}>2024 © CBT | Powered by gewaninfotech.com</Text>
-                <MediaQuery smallerThan="md" styles={{ flexDirection: 'column',alignItems:'center' }}>
-                <Flex gap={7} pr={25}>
+                 <Flex gap={7} pr={25}  className={classes.footerRight}>
                     <Text c={'#959698'} fz={'15px'}>Terms of Use</Text>
                     <Text size="sm">•</Text>
                     <Text c={'#959698'} fz={'15px'}>Privacy Policy</Text>
@@ -24,12 +21,9 @@ function Footer() {
                     
 
                 </Flex>
-                </MediaQuery>
-                
+                 
             </Flex>
-            </MediaQuery>
-        </footer>
-        </Box>
+         </Box>
         </>
     )
 }

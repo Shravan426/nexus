@@ -15,7 +15,7 @@ function Sixthpage() {
                 <MediaQuery smallerThan="md" styles={{ flexDirection: 'column' }}>
                 <Flex direction="column" gap="md">
               <MediaQuery smallerThan="md" styles={{ flexDirection: 'column', alignItems: 'flex-start' }}>
-                <Flex gap={50}>
+                <Flex gap={25}>
                     <div>
                         <Text c={"#757575"} fw={"bold"} fz={'12px'}  ta="start">Name</Text>
                         <Text c={"#243364"} fw={"bold"} fz={'12px'}  >Lorem ipsum dolor</Text>
